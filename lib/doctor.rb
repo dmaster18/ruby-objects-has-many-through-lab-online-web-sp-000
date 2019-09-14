@@ -14,7 +14,7 @@ class Doctor
   
   def new_appointment(date, patient)
     new_appointment = Appointment.new(date, patient, self)
-        Appointment.all << new_appointment
+    Appointment.all << new_appointment
   end
 
   def appointments
