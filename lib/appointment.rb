@@ -11,8 +11,6 @@ class Appointment
   end
   
   def self.all
-    Doctor.new_appointment(date, patient)
-    Patient.new_appointment(date, doctor)
     @@all
   end
 end
