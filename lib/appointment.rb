@@ -11,6 +11,7 @@ class Appointment
   end
   
   def self.all
+    new_appointment(date, patient)
     @@all
   end
 end
